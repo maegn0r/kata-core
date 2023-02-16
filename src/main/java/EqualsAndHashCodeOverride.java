@@ -1,3 +1,5 @@
+import java.util.Comparator;
+
 public class EqualsAndHashCodeOverride {
     public static void main(String[] args) {
 
@@ -8,7 +10,6 @@ public class EqualsAndHashCodeOverride {
 
         public ComplexNumber() {
         }
-
         public ComplexNumber(double re, double im) {
             this.re = re;
             this.im = im;
